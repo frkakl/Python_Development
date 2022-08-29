@@ -127,11 +127,11 @@ print(asd)
 
 
 #Functions
-def user_register():
+def user_register(): #Defining function
     fname = input("Name: ")
     fsurname = input("Surname: ")
     print("Wellcome " + fname + " " + fsurname + ". You are Registered Now.")
 
 print("Wellcome Please Register")
-user_register()
+user_register() #Call the function 
 """
