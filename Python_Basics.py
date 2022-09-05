@@ -61,7 +61,7 @@ if temp >= 25:
 elif 18 <= temp <= 25:
     print("Hava Çok Güzel")
 else:
-
+    print("Bu gün Hava Soğuk.")
 
 
 # While Loop
@@ -70,9 +70,7 @@ while i <= 10:
     print(i * "*")
     i += 1
 
-    print("Bu gün Hava Soğuk.")
-
-
+    
 # Lists
 names = ["Ömer", "Ahmet", "Mehmet", "Ali", "Veli"]
 print(names)
