@@ -68,6 +68,11 @@ exam_scores = pd.read_csv(r"D:\Development\GitHub\Python_Development\Pandas\exam
 a = exam_scores.gender.unique()
 print(a)
 
+dupl_entr_1 = exam_scores[exam_scores.duplicated()] # find duplicate entries
+print("Dupicate Entries: ", dupl_entr_1.shape)
+exam_scores = exam_scores.drop_duplicates() # delete duplicate entries
+
+
 """
 print(exam_scores.shape) # satır ve sütün sayısını verir
 print(exam_scores.head) # Dataset'in ilk kısmını verir, parantez içine girilen sayı kadar baştan satır gösterir
