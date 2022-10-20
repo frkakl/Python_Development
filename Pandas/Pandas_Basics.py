@@ -64,7 +64,7 @@ df_1.to_csv("01.csv", index= False) # Dataframe'den csv dosyası oluşturma
 """
 
 
-exam_scores = pd.read_csv(r"D:\Development\GitHub\Python_Development\Pandas\exam_scores.csv")
+exam_scores = pd.read_csv(r"Pandas\exam_scores.csv")
 a = exam_scores.gender.unique()
 print(a)
 
@@ -98,7 +98,7 @@ exam_scores.gender = 'Male' # Gender sütunundaki tüm verileri male olarak değ
 print(exam_scores)
 """
 
-x = pd.read_csv(r"D:\Development\GitHub\Python_Development\Pandas\01.csv")
+x = pd.read_csv(r"Pandas\01.csv")
 
 """
 print(x)
